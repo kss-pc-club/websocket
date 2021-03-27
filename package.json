@@ -1,0 +1,26 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "（この `kss-pc-club/template` リポジトリもどんどん変更してください！）",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kss-pc-club/websocket.git"
+  },
+  "author": "Asa <npm@a01sa01to.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kss-pc-club/websocket/issues"
+  },
+  "homepage": "https://github.com/kss-pc-club/websocket#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "express": "^4.17.1",
+    "utf-8-validate": "^5.0.4",
+    "ws": "^7.4.4"
+  }
+}
