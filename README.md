@@ -6,7 +6,9 @@ wss://kss-pc-club-websocket.herokuapp.com/
 
 ## 使い方
 ```js
-const websocket = new WebSocket('wss://kss-pc-club-websocket.herokuapp.com/[プロジェクト名]/aaa');
+const websocket = new WebSocket('wss://kss-pc-club-websocket.herokuapp.com/[プロジェクト名]/[ID]');
+// IDは自由に決めて結構ですが、同じWebSocketに接続させたいもの同士て同じにしてください。
+
 websocket.addEventListener('open',()=>{
   console.log('接続しました');
 })
