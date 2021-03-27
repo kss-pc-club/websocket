@@ -1,5 +1,6 @@
 # WebSocket
-HerokuでデプロイするためのWebsocketのリポジトリ。
+HerokuでデプロイするためのWebsocketのリポジトリ。<br>
+このHerokuプロジェクトへのアクセス権がほしい方は、Slackで`Asa`まで連絡ください。
 
 wss://kss-pc-club-websocket.herokuapp.com/
 
