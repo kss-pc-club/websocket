@@ -1,13 +1,13 @@
 # Security Policy
 
-## 推奨環境（以下は例です。このリポジトリに合わせて変更してください）
+## 推奨環境
 
 | Application | Version  | Supported          |
 | :---------: | :------: | :----------------: |
-| Node.js     | > 12.x.x | :white_check_mark: |
-| Node.js     | < 11.x.x | :x:                |
-| Yarn        | 1.22.x   | :white_check_mark: |
-| Yarn        | < 1.21.x | :x: |
+| Node.js     | > 12     | :white_check_mark: |
+| Node.js     | < 11     | :x:                |
+| npm         | > 6.13.0 | :white_check_mark: |
+| npm         | < 6.12.0 | :x:                |
 
 ## 脆弱性の報告
 

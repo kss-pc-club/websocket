@@ -1,12 +1,12 @@
-# [作品名]
-（この `kss-pc-club/template` リポジトリもどんどん変更してください！）
+# WebSocket
+HerokuでデプロイするためのWebsocketのリポジトリ。
 
-## [作品名]とは？
+wss://kss-pc-club-websocket.herokuapp.com/
 
 ## 開発方法
-1. ---
-2. ---
-3. ---
+1. `git clone https://github.com/kss-pc-club/websocket.git`
+2. `npm install`
+3. `npm start`
 
 ## 必要環境
 [SECURITY.md](./SECURITY.md) を見てください
@@ -19,12 +19,3 @@
 
 ## LICENSE
 MIT License. [LICENSE file](./LICENSE) for more information.
-
-## Todo（終わったら消してください）
- - LICENSE ファイルの3行目の年を今年にする
- - .gitignore ファイルを [github/gitignore](https://github.com/github/gitignore) をもとに作成
- - 以下のファイルを変更
-   - CODE_OF_CONDUCT.md
-   - CONTRIBUTING.md
-   - README.md
-   - SECURITY.md
