@@ -17,10 +17,29 @@
     "url": "https://github.com/kss-pc-club/websocket/issues"
   },
   "homepage": "https://github.com/kss-pc-club/websocket#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
   "dependencies": {
     "bufferutil": "^4.0.3",
     "express": "^4.17.1",
     "utf-8-validate": "^5.0.4",
     "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^5.2.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
   }
 }
