@@ -14,7 +14,7 @@ const server = express()
   .listen(PORT, () => console.log(`Listening on ${PORT}`))
 
 server.on('upgrade', (req, socket, head) => {
-  const path = new URL(req.url).pathname
+  const path = req.url
   console.log(path)
 
   if (list[path]) {
