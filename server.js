@@ -28,11 +28,13 @@ server.on('upgrade', (req, socket, head) => {
     wss.on('connection', (ws) => {
       console.log('Client connected')
       ws.on('message', (data) => {
-        wss.clients.forEach((cli) => {
-          if (cli !== ws) {
-            cli.send(data)
-          }
-        })
+        if(data !== "[Keeping Connection... Ignore this message...]"){
+          wss.clients.forEach((cli) => {
+            if (cli !== ws) {
+              cli.send(data)
+            }
+          })
+        }
       })
       ws.on('close', () => console.log('Client disconnected'))
     })

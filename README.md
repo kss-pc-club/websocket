@@ -21,6 +21,11 @@ websocket.addEventListener('close',()=>{
 websocket.addEventListener('error',()=>{
   console.log('エラーが発生しました')
 })
+
+// 1分くらい経つと自動で接続が切れる？ので継続的にメッセージを送信してください。なおこのメッセージはサーバー側で自動で無視されるので、クライアント側で特別な処理をする必要はありません。
+setInterval(()=>{
+  websocket.send('[Keeping Connection... Ignore this message...]');
+},30000)
 ```
 
 ## サンプルページ
